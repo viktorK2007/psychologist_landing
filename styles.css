@@ -1,0 +1,180 @@
+body {
+  background-color: #ac7d7c33;
+  margin: 0;
+}
+
+.imj {
+  background-image: url(./images/фон.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.contact,
+.method,
+.session,
+.education {
+  margin-left: 3vw;
+}
+
+.grup {
+  display: flex;
+  margin-right: 9vw;
+  justify-content: flex-end;
+  padding-top: 4vh;
+  font-size: 20px;
+}
+.title {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 17vw;
+}
+.title0 {
+  font-size: 54px;
+}
+.sign_up {
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+.zap {
+  border: 4px solid white;
+  padding: 1vw;
+  width: 14vw;
+  height: 3vw;
+}
+
+.text {
+  color: white;
+}
+.methods {
+  font-size: 52px;
+  padding-top: 1vh;
+  color: white;
+}
+
+.description {
+  width: 38vw;
+  padding-left: 12vw;
+  border-top: 3px solid white;
+  border-right: 3px solid white;
+}
+.metods_text {
+  padding: 1%;
+  margin-top: 2vh;
+  font-size: 26px;
+}
+
+.photo1 {
+  width: 16vw;
+  border-radius: 20px;
+}
+
+.photo2 {
+  width: 16vw;
+  margin-left: 1vw;
+  border-radius: 20px;
+}
+.about_method {
+  display: flex;
+  margin-top: 16vh;
+}
+.cartinca_grup {
+  display: flex;
+  margin-left: 6vw;
+  margin-top: 105px;
+}
+.hypnosis {
+  font-size: 50px;
+  margin-top: 2vw;
+  margin-left: 7vw;
+  width: 38vw;
+  color: white;
+}
+
+.text_hypnosis {
+  width: 30vw;
+  font-size: 26px;
+  margin-top: 5vw;
+  margin-left: 7vw;
+}
+
+.grup_gypnosis {
+  margin-left: 5vw;
+  border-top: 3px solid white;
+  border-right: 3px solid white;
+}
+
+.photo3 {
+  width: 33vw;
+  border-radius: 20px;
+  margin-top: 16vw;
+  margin-left: 12vw;
+}
+
+.grup_gipnosisFlex {
+  display: flex;
+}
+
+.stub {
+  border-top: 3px solid white;
+  width: 5vw;
+  margin-left: 95vw;
+}
+
+.cartinca4 {
+  background-image: url(./images/шишка.jpg);
+  background-size: cover;
+  margin-top: 4vh;
+  width: 100vw;
+  height: 21vh;
+}
+
+.photo5 {
+  margin-left: 12vw;
+  margin-top: 13vh;
+  width: 18vw;
+  border-radius: 20px;
+}
+
+.important {
+  font-size: 50px;
+}
+
+.important_text {
+  font-size: 26px;
+}
+
+.grupFlex {
+  display: flex;
+}
+
+.important_grup {
+  padding-left: 12vw;
+}
+
+.forma {
+  background-color: #6d9bd1;
+  height: 31vh;
+  width: 32vw;
+  border-radius: 20px;
+  margin-top: 10vh;
+  margin-left: 10vw;
+  padding: 2%;
+}
+
+.forma_flex {
+  display: flex;
+}
+
+input {
+  background: none;
+  border: none;
+  border-bottom: white 2px solid;
+  color: white;
+}
+::-webkit-input-placeholder {
+  color: white;
+}
