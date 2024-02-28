@@ -3,10 +3,55 @@ body {
   margin: 0;
 }
 
+
 .imj {
   background-image: url(./images/фон.jpg);
   background-size: cover;
   height: 100vh;
+}
+
+
+input {
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: white;
+}
+
+.form_name{
+  border-bottom: white 2px solid;
+  width: 28vw;
+    margin-left: 2vw;
+    margin-top: 3vh;
+}
+
+.form_phone{
+  border-bottom: white 2px solid;
+  margin-left: 2vw;
+  width: 13vw;
+}
+
+.form_email{
+  border-bottom: white 2px solid;
+  margin-left: 2vw;
+  width: 13vw;
+}
+
+.form_comment{
+  border-bottom: white 2px solid;
+  width: 28vw;
+    margin-left: 2vw;
+    margin-top: 5vh;
+}
+
+.send{
+  width: 12vw;
+  height: 4vh;
+  border-radius: 17px;
+  border: none;
+  margin-top: 4vh;
+  margin-left: 10vw;
+  font-size: 16px;
 }
 
 .contact,
@@ -21,7 +66,7 @@ body {
   margin-right: 9vw;
   justify-content: flex-end;
   padding-top: 4vh;
-  font-size: 20px;
+  font-size: 26px;
 }
 .title {
   color: white;
@@ -40,10 +85,10 @@ body {
   font-size: 30px;
 }
 .zap {
-  border: 4px solid white;
-  padding: 1vw;
-  width: 14vw;
-  height: 3vw;
+  border: 3px solid white;
+  padding: 14px;
+  width: 142px;
+  height: 28px;
 }
 
 .text {
@@ -232,14 +277,10 @@ body {
 
 .forma_flex {
   display: flex;
+  margin-top: 6vh;
 }
 
-input {
-  background: none;
-  border: none;
-  border-bottom: white 2px solid;
-  color: white;
-}
+
 ::-webkit-input-placeholder {
   color: white;
 }
