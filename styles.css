@@ -1,15 +1,14 @@
 body {
   background-color: #ac7d7c33;
   margin: 0;
+  border: 1px solid black
 }
-
 
 .imj {
   background-image: url(./images/фон.jpg);
   background-size: cover;
-  height: 100vh;
+  height: 84vh;
 }
-
 
 input {
   background: none;
@@ -18,33 +17,33 @@ input {
   color: white;
 }
 
-.form_name{
+.form_name {
   border-bottom: white 2px solid;
   width: 28vw;
-    margin-left: 2vw;
-    margin-top: 3vh;
+  margin-left: 2vw;
+  margin-top: 3vh;
 }
 
-.form_phone{
+.form_phone {
   border-bottom: white 2px solid;
   margin-left: 2vw;
   width: 13vw;
 }
 
-.form_email{
+.form_email {
   border-bottom: white 2px solid;
   margin-left: 2vw;
   width: 13vw;
 }
 
-.form_comment{
+.form_comment {
   border-bottom: white 2px solid;
   width: 28vw;
-    margin-left: 2vw;
-    margin-top: 5vh;
+  margin-left: 2vw;
+  margin-top: 5vh;
 }
 
-.send{
+.send {
   width: 12vw;
   height: 4vh;
   border-radius: 17px;
@@ -93,7 +92,6 @@ input {
   padding-right: 55px;
   padding-bottom: 13px;
 }
-
 
 .text {
   color: white;
@@ -169,24 +167,26 @@ input {
 
 .stub {
   border-top: 3px solid white;
-  width: 5vw;
+  width: calc(5vw - 20px);
   margin-left: 95vw;
+
 }
 
 .cartinca4 {
   background-image: url(./images/шишка.jpg);
   background-size: cover;
-  margin-top: 4vh;
+  height: 22vh;
+  max-width: 100%;
   width: 100vw;
-  height: 21vh;
+  margin-top: 4vh;
 }
 
-.cartinca7{
+.cartinca7 {
   background-image: url(./images/море.jpg);
   background-size: cover;
   margin-top: 4vh;
-  width: 100vw;
-  height: 17vh;
+  width:100vw;
+  height: 16vh;
 }
 
 .photo5 {
@@ -223,39 +223,38 @@ input {
   border-left: 3px solid white;
 }
 
-
-.text_education{
+.text_education {
   font-size: 26px;
   margin-left: 3vw;
-  margin-top: 5vh
+  margin-top: 5vh;
 }
 
-.education{
+.education {
   font-size: 55px;
   color: white;
   margin-top: 7vh;
   margin-left: 3vw;
 }
 
-.education_flex{
+.education_flex {
   display: flex;
 }
 
-.education_grup{
+.education_grup {
   width: 40vw;
   margin-left: 8vw;
   border-top: 3px solid white;
   border-left: 3px solid white;
 }
 
-.photo6{
-  border-radius: 20px ;
+.photo6 {
+  border-radius: 20px;
   width: 30vw;
   margin-left: 10vw;
   margin-top: 9vh;
 }
 
-.stub2{
+.stub2 {
   border-top: 3px solid white;
   width: 7vw;
   padding: 9px;
@@ -271,7 +270,7 @@ input {
   padding: 2%;
 }
 
-.forma_text{
+.forma_text {
   margin-top: 5vh;
   width: 50vw;
   border-top: 3px solid white;
@@ -284,34 +283,46 @@ input {
   margin-top: 6vh;
 }
 
-
 ::-webkit-input-placeholder {
   color: white;
 }
 
-.contact_bottom{
+.contact_bottom {
   font-size: 60px;
   color: white;
   margin-left: 14vw;
   margin-top: 2vw;
 }
 
-.global_flex{
+.global_flex {
   display: flex;
 }
 
-.contakts{
+.contakts {
   font-size: 52px;
   color: white;
   margin-top: 8vh;
   margin-left: 7vw;
 }
 
-.contacts_grup{
+.contacts_grup {
   width: 50vw;
   border-bottom: 3px solid white;
 }
 
-.forma_pismo{
+.forma_pismo {
   margin-left: 30vw;
+}
+
+.end {
+margin-top: 8vh;
+background-color: #6d9bd1;
+height: 3vh;
+}
+
+.end_text{
+  margin-left: 39vw;
+  padding-top: 7px;
+  font-size: 17px;
+  color: white;
 }
