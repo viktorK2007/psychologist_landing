@@ -1,7 +1,7 @@
 body {
   background-color: #ac7d7c33;
   margin: 0;
-  border: 1px solid black
+  border: 1px solid black;
 }
 
 .imj {
@@ -10,7 +10,8 @@ body {
   height: 84vh;
 }
 
-input {
+input,
+textarea {
   background: none;
   border: none;
   font-size: 16px;
@@ -169,7 +170,6 @@ input {
   border-top: 3px solid white;
   width: calc(5vw - 20px);
   margin-left: 95vw;
-
 }
 
 .cartinca4 {
@@ -185,7 +185,7 @@ input {
   background-image: url(./images/море.jpg);
   background-size: cover;
   margin-top: 4vh;
-  width:100vw;
+  width: 100vw;
   height: 16vh;
 }
 
@@ -315,14 +315,19 @@ input {
 }
 
 .end {
-margin-top: 8vh;
-background-color: #6d9bd1;
-height: 3vh;
+  margin-top: 8vh;
+  background-color: #6d9bd1;
+  height: 3vh;
 }
 
-.end_text{
+.end_text {
   margin-left: 39vw;
   padding-top: 7px;
   font-size: 17px;
   color: white;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
 }
