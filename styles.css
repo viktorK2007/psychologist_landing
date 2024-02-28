@@ -217,9 +217,17 @@ body {
   height: 31vh;
   width: 32vw;
   border-radius: 20px;
-  margin-top: 10vh;
-  margin-left: 10vw;
+  margin-left: 7vw;
+  margin-top: 4vh;
   padding: 2%;
+}
+
+.forma_text{
+  margin-top: 5vh;
+  width: 50vw;
+  border-top: 3px solid white;
+  border-right: 3px solid white;
+  height: 56vh;
 }
 
 .forma_flex {
@@ -234,6 +242,29 @@ input {
 }
 ::-webkit-input-placeholder {
   color: white;
+}
+
+.contact_bottom{
+  font-size: 60px;
+  color: white;
+  margin-left: 14vw;
+  margin-top: 2vw;
+}
+
+.global_flex{
+  display: flex;
+}
+
+.contakts{
+  font-size: 52px;
+  color: white;
+  margin-top: 8vh;
+  margin-left: 7vw;
+}
+
+.contacts_grup{
+  width: 50vw;
+  border-bottom: 3px solid white;
 }
 
 .forma_pismo{
