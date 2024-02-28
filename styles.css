@@ -12,7 +12,7 @@ body {
 .contact,
 .method,
 .session,
-.education {
+.a_education {
   margin-left: 3vw;
 }
 
@@ -185,6 +185,7 @@ body {
   font-size: 55px;
   color: white;
   margin-top: 7vh;
+  margin-left: 3vw;
 }
 
 .education_flex{
