@@ -14,15 +14,15 @@ server.get('/', function (req, res) {
 
 server.post("/api/feedback", async(req, res) => {
     try {
-        // const transporter = nodemailer.createTransport({
-        //     host: "smtp.mail.ru",
-        //     port: 465,
-        //     secure: true,
-        //     auth: {
-        //         user: "test_test_1976@internet.ru",
-        //         pass: "sHPgUMSuVfPvMN34aAKV"
-        //     }
-        // });
+        const transporter = nodemailer.createTransport({
+            host: "smtp.mail.ru",
+            port: 465,
+            secure: true,
+            auth: {
+                user: "test_test_1976@internet.ru",
+                pass: "sHPgUMSuVfPvMN34aAKV"
+            }
+        });
      
     
         const {email, message, name, phone} = req.body;
